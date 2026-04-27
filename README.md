@@ -1,16 +1,114 @@
-# React + Vite
+# AI Productivity Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, AI-powered productivity dashboard built with React, Vite, and Tailwind CSS. Track tasks, habits, and analyze your productivity patterns with intelligent insights.
 
-Currently, two official plugins are available:
+![React](https://img.shields.io/badge/React-19.2.5-blue?style=flat&logo=react)
+![Vite](https://img.shields.io/badge/Vite-8.0.10-purple?style=flat&logo=vite)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-4.2.4-38bdf8?style=flat&logo=tailwind-css)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- **📊 Dashboard** — Overview of your daily productivity with key metrics and AI-generated insights
+- **✅ Task Management** — Create, organize, and track tasks with drag-and-drop reordering
+- **🎯 Habit Tracking** — Build and monitor daily habits with streak tracking
+- **📈 Analytics** — Visualize productivity trends with interactive charts
+- **📅 Calendar** — View tasks and habits on a calendar interface
+- **⚙️ Settings** — Customize your experience
+- **🤖 AI Insights** — Smart recommendations based on your productivity patterns
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+| Category | Technology |
+|----------|------------|
+| **Framework** | React 19 |
+| **Build Tool** | Vite 8 |
+| **Styling** | Tailwind CSS 4 |
+| **Routing** | React Router DOM 7 |
+| **Animations** | Framer Motion 12 |
+| **Charts** | Recharts 3 |
+| **Drag & Drop** | @dnd-kit |
+| **Icons** | Lucide React |
+| **Utilities** | date-fns, clsx, tailwind-merge |
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js 18+ 
+- npm or yarn
+
+### Installation
+
+```bash
+# Clone the repository
+git clone <repository-url>
+cd AI Productivity Dashboard
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
+
+### Build for Production
+
+```bash
+# Create production build
+npm run build
+
+# Preview production build
+npm run preview
+```
+
+## 📁 Project Structure
+
+```
+src/
+├── components/          # Reusable UI components
+│   ├── AIInsights.jsx
+│   ├── HabitModal.jsx
+│   ├── Layout.jsx
+│   ├── Sidebar.jsx
+│   ├── StatCard.jsx
+│   ├── TaskCard.jsx
+│   ├── TaskModal.jsx
+│   └── ui/             # Base UI components
+├── context/             # React Context providers
+│   ├── HabitContext.jsx
+│   └── TaskContext.jsx
+├── hooks/               # Custom React hooks
+│   └── useLocalStorage.js
+├── pages/               # Page components
+│   ├── Analytics.jsx
+│   ├── Calendar.jsx
+│   ├── Dashboard.jsx
+│   ├── Habits.jsx
+│   ├── Settings.jsx
+│   ├── Tasks.jsx
+│   └── NotFound.jsx
+├── App.jsx             # Main app component
+├── main.jsx            # Entry point
+└── index.css           # Global styles
+```
+
+## 🔧 Available Scripts
+
+| Command | Description |
+|---------|-------------|
+| `npm run dev` | Start development server |
+| `npm run build` | Build for production |
+| `npm run lint` | Run ESLint |
+| `npm run preview` | Preview production build |
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+## 🙏 Acknowledgments
+
+- [Vite](https://vitejs.dev/) for the blazing fast build tool
+- [Tailwind CSS](https://tailwindcss.com/) for the utility-first CSS framework
+- [Lucide](https://lucide.dev/) for the beautiful icons
+Created By:M.Umar Afzaal
