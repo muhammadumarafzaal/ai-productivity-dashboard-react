@@ -1,7 +1,7 @@
 # AI Productivity Dashboard
 
 A modern, AI-powered productivity dashboard built with React, Vite, and Tailwind CSS. Track tasks, habits, and analyze your productivity patterns with intelligent insights.
-DEPLOYMENT LINK:https://ai-productivity-dashboard-react-2lg5mst2d.vercel.app
+DEPLOYMENT LINK:https://ai-productivity-dashboard-react.vercel.app/
 
 ![React](https://img.shields.io/badge/React-19.2.5-blue?style=flat&logo=react)
 ![Vite](https://img.shields.io/badge/Vite-8.0.10-purple?style=flat&logo=vite)
